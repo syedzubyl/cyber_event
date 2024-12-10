@@ -180,7 +180,7 @@
 			 <!-- Hidden Alphanumeric Flag -->
 			  <!-- Alphanumeric Flag Trigger -->
 <p id="hover-text" style="font-size: 14px; cursor: pointer;">
-    Hover over me to reveal the secret!
+    Hover over me to reveal the 🚩 secret!
 </p>
 
 <!-- Hidden Alphanumeric Flag -->
@@ -444,6 +444,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit a
 				
 				<h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.<br>
 				 Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.</h3>
+<!-- Hidden Caesar Cipher 🚩-->
+<!-- Uifsf jt b tfdsfu gmbh: DTU{Gbmm_feht_Gmbht} -->
+
+<p>Look closely at the page source code for a hidden 🚩 flag encoded in Caesar Cipher.</p>
+
 		</div>
 	</div>
 	 <div class="container w960">
@@ -454,12 +459,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit a
 				Your message has been sent. Thank you!
 			</div>
 		</div>
-       <form method="post" action="contact.php" id="contactform">
+       <form method="post" id="contactform">
           <input name="name" type="text" class="contact col-md-6" placeholder="Your Name *" >
           <input name="email" type="email" class="contact noMarr col-md-6" placeholder="E-mail address *" >
           <textarea name="comment" class="contact col-md-12" placeholder="Message syed*"></textarea>
           <input type="submit" id="submit" class="contact submit" value="Send message">
         </form>
+		<script>
+			// Add an event listener to the submit button
+			document.getElementById("submit").addEventListener("click", function (event) {
+				// Prevent the default form submission
+				event.preventDefault();
+				
+				// Show an alert with the flag
+				alert("Easy find out the flag: CTF{Easy_Flag_Discovered}");
+			});
+		</script>
       </div>
     </div>
 	</section>
