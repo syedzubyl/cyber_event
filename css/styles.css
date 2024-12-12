@@ -49,8 +49,8 @@ img {
 
 .fade-carousel .carousel-indicators > li {
   margin: 0 2px;
-  background-color: #f39c12;
-  border-color: #f39c12;
+  background-color: #04b4e0;
+  border-color: #12acf3;
   opacity: .7;
   border-radius: 0;
   width: 20px;
@@ -116,13 +116,13 @@ img {
 
 .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
   color: #f5f5f5;
-  background-color: #DB8B0F;
-  border-color: #DB8B0F;
+  background-color: #0fdbd1;
+  border-color: #0fdbd1;
   outline: none;
   padding: 12px 32px;
   margin: 20px auto;
   border-radius: 0px;
-  border-bottom: 4px solid #FF9C00;
+  border-bottom: 4px solid #0aebeb;
 }
 /********************************/
 /*            Overlay           */
@@ -231,12 +231,12 @@ img {
   background: #F0F0F0;
   border-bottom: 10px solid #E2E2E2;
   border-radius: 0 0 15px 15px;
-  border-top: 1px solid #F39C12;
+  border-top: 1px solid #12f3e0;
 }
 
 .box-area-icon i {
   font-size: 40px;
-  color: #F39C12;
+  color: #0fd6c6;
 }
 
 .news-events-box {
@@ -277,7 +277,7 @@ img {
 }
 
 .navArea {
-	/*float:right;*/;
+	/*float:right;*/
 }
 
 .navwrapper .container {
@@ -311,7 +311,7 @@ img {
 
 .nav>li>a:hover, .nav>li>a:focus {
   text-decoration: none;
-  background-color: rgb(205, 128, 5);
+  background-color: rgb(5, 205, 172);
   color: #FFFFFF;
 }
 
@@ -376,7 +376,7 @@ img {
 
 #main-nav ul.nav>li.active>a {
   color: #fff;
-  background-color: rgb(205, 128, 5);
+  background-color: rgb(5, 205, 162);
 }
 
 .hideClass {
@@ -384,12 +384,12 @@ img {
 }
 
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-  background: #cc580c;
+  background: #0c8fcc;
   color: #fff;
 }
 
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-  background: #cc580c;
+  background: #0c8fcc;
   color: #fff;
 }
 
@@ -403,11 +403,11 @@ img {
   -moz-transition: all .5s;
   -webkit-transition: all .5s;
   transition: all .5s;
-  background: #F39C12;
+  background: #12f3e8;
 }
 
 .isFixed {
-  background: #F39C12;
+  background: #12f3e8;
   -o-transition: all .5s;
   -ms-transition: all .5s;
   -moz-transition: all .5s;
@@ -437,7 +437,7 @@ header {
 .heading h2 {
   font-weight: 700;
   font-size: 35px;
-  color: #F39C12;
+  color: #12f3bb;
   margin: 0;
   padding: 5px;
   text-transform: capitalize;
@@ -512,9 +512,9 @@ img#site-title {
 }
 
 .grid figcaption {
-  background: #300F00;
+  background: #030030;
   padding: 12px 18px;
-  border-top: #F39C12 solid 1px;
+  border-top: #12f3ce solid 1px;
 }
 /* Slideshow style */
 .slideshow {
@@ -728,7 +728,7 @@ textarea.contact {
 }
 
 .contact.submit {
-  background: #F39C12;
+  background: #12a1f3;
   font-family: 'Montserrat',sans-serif;
   color: #1A1A1A;
   font-size: 16px;
@@ -742,7 +742,7 @@ textarea.contact {
 }
 
 .contact.submit:hover {
-  background: #FAAB2D;
+  background: #2dfaf0;
 }
 
 .done {
@@ -1052,4 +1052,84 @@ blockquote footer, blockquote small, blockquote .small {
     width: 100%;
   }
 }
-
+.foot_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.col-md-9, .col-md-6 {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+.col-md-9 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.col-md-9 ul li {
+  display: inline;
+}
+.col-md-9 ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+.col-md-9 ul li a:hover {
+  color: #007BFF;
+}
+.col-md-9 p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+.col-md-9 p a {
+  text-decoration: none;
+  color: #007BFF;
+}
+.col-md-6 {
+  width: 100%;
+}
+#gmap_canvas {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #94999b;
+  padding: 20px 0;
+}
+.footer .text-center {
+  margin-bottom: 20px;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.footer ul li a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: #007BFF;
+}
+.footer p {
+  text-align: center;
+  color: #555;
+  margin-top: 10px;
+}
+.footer p a {
+  color: #007BFF;
+  text-decoration: none;
+}
